@@ -33,23 +33,24 @@ header div a {
 }
 
 header div a:hover {
-    color: #F61666;
+    color: var(--color-rocket);
     transition: color 400ms;
 }
 
 .rocket {
     background: var(--color-rocket);
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     margin: 40px auto;
+    display: flex;
 }
 
 .rocket img {
-    display: absolute;
-    width: 200px;
+    display: flex;
+    width: 180px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 30px;
 }
 
 section {
@@ -59,8 +60,8 @@ section {
 
 .about h1 {
     color: var(--color-green);
-    font-size: 36px;
-    line-height: 46px;
+    font-size: 42px;
+    line-height: 52px;
     margin-bottom: 15px;
 }
 
@@ -86,8 +87,38 @@ hr {
     opacity: 0.1;
 }
 
+.technologies h1 {
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 30px;
+}
+
 .cards {
+    max-width: 800px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.card img {
+    border-radius: 50%;
+    width: 50%;
+}
+
+.socialmedias {
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+.socialmedias a {
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+}
+
+.socialmedias a:hover {
+    color: var(--color-green);
+    transition: color 400ms;
+}
