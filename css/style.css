@@ -122,3 +122,35 @@ hr {
     color: var(--color-green);
     transition: color 400ms;
 }
+
+.content h1 {
+    font-size: 36px;
+    line-height: 46px;
+    margin: 50px auto;
+}
+
+.courses {
+    max-width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.course {
+    width: 300px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px; 
+}
+
+.course img {
+    margin-top: 30px;
+}
+
+.course:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 2px solid var(--color-green);
+    cursor: pointer;
+    transition: 400ms;
+}
