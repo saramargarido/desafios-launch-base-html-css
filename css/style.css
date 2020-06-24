@@ -33,6 +33,8 @@ header div a {
 }
 
 header div a:hover {
+    font-weight: bold;
+    text-transform: uppercase;
     color: var(--color-rocket);
     transition: color 400ms;
 }
@@ -222,5 +224,4 @@ iframe {
     height: 100%;
     margin: 0 auto;
 }
-
 
