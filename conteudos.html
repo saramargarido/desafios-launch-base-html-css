@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Favicon</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/style.css">
@@ -25,15 +27,15 @@
 
         <div class="courses">
         
-            <div class="course">
+            <div class="course" id="starter">
                     <img src="https://skylab.rocketseat.com.br/static/media/Starter.64c237cc.svg" alt="">
                     <div class="card__info">
                     <p>5 Módulos</p>
-                    <p>Pago</p>
+                    <p>Free</p>
                     </div>
             </div>
 
-            <div class="course">
+            <div class="course" id="launchbase">
                     <img src="https://skylab.rocketseat.com.br/static/media/LaunchBase.08285320.svg" alt="">
                     <div class="card__info">
                     <p>7 Módulos</p>
@@ -41,17 +43,30 @@
                     </div>
             </div>
 
-            <div class="course">
+            <div class="course" id="gostack">
                     <img src="https://skylab.rocketseat.com.br/static/media/GoStack.83a178a0.svg" alt="">
                     <div class="card__info">
                     <p>5 Módulos</p>
                     <p>Pago</p>
                     </div>
-            </div>
-        
+            </div>       
 
         </div>
 
     </section>
+
+    <div class="modal-overlay">
+        <div class="modal">
+            <a class="close-modal">
+                <i class="material-icons">close</i>
+            </a>
+
+            <div class="modal-content">
+                <iframe src=""></iframe>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+
 </body>
 </html>
