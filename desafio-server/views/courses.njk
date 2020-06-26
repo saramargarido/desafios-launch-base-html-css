@@ -1,0 +1,60 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="/responsive.css">
+{% endblock %}
+
+{% block content %}
+    <section class="content">
+        <h1>Cursos:</h1>
+
+        <div class="courses">
+        
+            <div class="course" id="starter">
+                    <img src="https://skylab.rocketseat.com.br/static/media/Starter.64c237cc.svg" alt="">
+                    <div class="card__info">
+                    <p>5 Módulos</p>
+                    <p>Free</p>
+                    </div>
+            </div>
+
+            <div class="course" id="launchbase">
+                    <img src="https://skylab.rocketseat.com.br/static/media/LaunchBase.08285320.svg" alt="">
+                    <div class="card__info">
+                    <p>7 Módulos</p>
+                    <p>Pago</p>
+                    </div>
+            </div>
+
+            <div class="course" id="gostack">
+                    <img src="https://skylab.rocketseat.com.br/static/media/GoStack.83a178a0.svg" alt="">
+                    <div class="card__info">
+                    <p>5 Módulos</p>
+                    <p>Pago</p>
+                    </div>
+            </div>       
+
+        </div>
+
+    </section>
+    
+    <div class="modal-overlay">
+        <div class="modal">
+            <a class="maximize-modal">
+                <i class="material-icons">crop_square</i>
+            </a>
+            <a class="close-modal">
+                <i class="material-icons">close</i>
+            </a>
+
+            <div class="modal-content">
+                <iframe src=""></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+{% endblock %}
+
