@@ -145,6 +145,14 @@ hr {
     border-radius: 10px; 
 }
 
+.course p {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 0 50px;
+}
+
 .course img {
     margin-top: 30px;
 }
@@ -159,8 +167,7 @@ hr {
 .card__info {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 30px auto;
-
+    margin: 0 auto;
 }
 
 .card__info p {
