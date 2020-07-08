@@ -1,0 +1,25 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="/responsive.css">
+{% endblock %}
+
+{% block content %}
+    <section class="content">
+        <h1 id="title">{{ item.id }}</h1>
+        <p class="description">{{ item.description }}</p>
+
+        <div class="card-course">
+
+            <div class="card__course-containter" id="{{item.id}}">
+                     <iframe src="https://rocketseat.com.br/{{item.id}}"></iframe>
+            </div>             
+
+        </div>
+
+    </section>
+
+    {% endblock %}
+
